@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.input-todo{
+    display: none;
+}
+
+.layout{
+    .todo-wrapper{
+        width: 500px;
+        margin: auto;
+        border: 1px solid;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        .todo-top{
+            display: flex;
+            margin-bottom: 20px;
+        }
+    }
+}
